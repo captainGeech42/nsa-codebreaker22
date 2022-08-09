@@ -1,0 +1,169 @@
+Node,Username,Start Time,Duration,Service,Active,Auth,Real Ip,Vpn Ip,Proto,Port,Bytes Total,Error
+openvpn-server,Patrick.U,2022.05.16 07:55:45 EDT,,VPN,0,0,172.23.115.163,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Gregory.C,2022.05.16 08:31:22 EDT,,VPN,0,0,172.31.46.212,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Evelyn.P,2022.05.16 09:10:22 EDT,4162,VPN,0,1,172.26.38.105,10.128.20.63,UDP,1194,407751140,
+openvpn-server,James.M,2022.05.16 09:43:33 EDT,10950,VPN,0,1,172.23.55.212,10.128.20.147,UDP,1194,1261045800,
+openvpn-server,Alexis.Q,2022.05.16 09:57:03 EDT,14263,VPN,0,1,172.31.13.121,10.128.20.175,UDP,1194,3457950246,
+openvpn-server,Ronald.P,2022.05.16 10:15:56 EDT,6724,VPN,0,1,172.24.138.151,10.128.20.4,UDP,1194,1706194828,
+openvpn-server,Kathryn.D,2022.05.16 10:41:56 EDT,,VPN,0,0,172.17.118.218,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Evelyn.P,2022.05.16 11:00:18 EDT,27272,VPN,0,1,172.18.234.42,10.128.20.240,UDP,1194,5273886632,
+openvpn-server,Juan.C,2022.05.16 11:13:31 EDT,6752,VPN,0,1,172.29.226.190,10.128.20.243,UDP,1194,1283669984,
+openvpn-server,Eugene.C,2022.05.16 11:28:54 EDT,15374,VPN,0,1,172.31.31.126,10.128.20.249,UDP,1194,2464175468,
+openvpn-server,Sandra.T,2022.05.16 12:00:47 EDT,,VPN,0,0,172.17.92.223,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Madison.B,2022.05.16 12:25:27 EDT,21393,VPN,0,1,172.28.138.51,10.128.20.157,UDP,1194,3454627212,
+openvpn-server,Gregory.C,2022.05.16 13:02:19 EDT,8678,VPN,0,1,172.18.9.93,10.128.20.30,UDP,1194,1424910244,
+openvpn-server,Elijah.M,2022.05.16 13:29:35 EDT,7818,VPN,0,1,172.23.71.41,10.128.20.224,UDP,1194,1799078160,
+openvpn-server,Bryan.B,2022.05.16 14:08:34 EDT,12546,VPN,0,1,172.25.217.215,10.128.20.38,UDP,1194,346683618,
+openvpn-server,Daniel.U,2022.05.16 14:42:21 EDT,11222,VPN,0,1,172.20.194.234,10.128.20.47,UDP,1194,623022996,
+openvpn-server,Ronald.P,2022.05.16 15:10:46 EDT,4434,VPN,0,1,172.31.157.12,10.128.20.45,UDP,1194,696395172,
+openvpn-server,Kelly.Y,2022.05.16 15:21:55 EDT,,VPN,0,0,172.17.47.205,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Stephen.M,2022.05.16 15:58:28 EDT,4885,VPN,0,1,172.27.41.3,10.128.20.244,UDP,1194,615856835,
+openvpn-server,Wayne.W,2022.05.16 16:09:27 EDT,5194,VPN,0,1,172.24.34.213,10.128.20.18,UDP,1194,357840630,
+openvpn-server,Juan.C,2022.05.16 16:39:24 EDT,6799,VPN,0,1,172.29.214.33,10.128.20.245,UDP,1194,1826394973,
+openvpn-server,Eugene.C,2022.05.16 16:58:54 EDT,1757,VPN,0,1,172.24.136.199,10.128.20.11,UDP,1194,296766085,
+openvpn-server,Alexis.Q,2022.05.16 17:24:03 EDT,3551,VPN,0,1,172.16.57.85,10.128.20.30,UDP,1194,534904885,
+openvpn-server,Sandra.T,2022.05.16 17:54:41 EDT,,VPN,0,0,172.28.19.169,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Stephen.M,2022.05.16 18:27:59 EDT,1505,VPN,0,1,172.21.1.210,10.128.20.84,UDP,1194,180908525,
+openvpn-server,Bryan.B,2022.05.16 18:49:51 EDT,7605,VPN,0,1,172.31.6.150,10.128.20.29,UDP,1194,1639668420,
+openvpn-server,Patrick.U,2022.05.17 07:09:39 EDT,36442,VPN,0,1,172.30.239.147,10.128.20.235,UDP,1194,6824894202,
+openvpn-server,Sandra.T,2022.05.17 07:29:49 EDT,38434,VPN,0,1,172.27.62.146,10.128.20.22,UDP,1194,180293894,
+openvpn-server,Betty.V,2022.05.17 07:44:41 EDT,,VPN,0,0,172.27.149.60,,UDP,1194,,user not found
+openvpn-server,Patricia.K,2022.05.17 08:15:50 EDT,30727,VPN,0,1,172.29.180.7,10.128.20.74,UDP,1194,6549552231,
+openvpn-server,Evelyn.P,2022.05.17 08:37:51 EDT,37792,VPN,0,1,172.24.141.210,10.128.20.252,UDP,1194,8909577376,
+openvpn-server,Ronald.P,2022.05.17 08:59:14 EDT,11540,VPN,0,1,172.30.71.65,10.128.20.195,UDP,1194,2820041340,
+openvpn-server,Julia.U,2022.05.17 09:17:07 EDT,6448,VPN,0,1,172.18.226.211,10.128.20.94,UDP,1194,143674336,
+openvpn-server,Gregory.C,2022.05.17 09:52:33 EDT,29685,VPN,0,1,172.30.48.162,10.128.20.253,UDP,1194,7598024175,
+openvpn-server,Mark.L,2022.05.17 10:07:07 EDT,23401,VPN,0,1,172.20.85.178,10.128.20.168,UDP,1194,5954548257,
+openvpn-server,James.M,2022.05.17 10:35:31 EDT,15733,VPN,0,1,172.21.90.145,10.128.20.46,UDP,1194,1186488462,
+openvpn-server,Madison.B,2022.05.17 11:03:59 EDT,21861,VPN,0,1,172.24.65.64,10.128.20.40,UDP,1194,2576734209,
+openvpn-server,Marilyn.T,2022.05.17 11:35:05 EDT,22415,VPN,0,1,172.18.186.96,10.128.20.215,UDP,1194,664425430,
+openvpn-server,Kimberly.F,2022.05.17 12:02:28 EDT,17686,VPN,0,1,172.27.249.100,10.128.20.47,UDP,1194,1550761538,
+openvpn-server,Ronald.P,2022.05.17 12:36:48 EDT,11244,VPN,0,1,172.20.164.119,10.128.20.21,UDP,1194,1680843072,
+openvpn-server,Amanda.E,2022.05.17 12:59:09 EDT,1916,VPN,0,1,172.28.119.105,10.128.20.179,UDP,1194,438541744,
+openvpn-server,Julia.U,2022.05.17 13:33:10 EDT,14744,VPN,0,1,172.17.12.252,10.128.20.59,UDP,1194,1844032080,
+openvpn-server,Juan.C,2022.05.17 14:12:58 EDT,15584,VPN,0,1,172.21.31.184,10.128.20.177,UDP,1194,1898941568,
+openvpn-server,Kathryn.D,2022.05.17 14:48:43 EDT,12413,VPN,0,1,172.31.6.38,10.128.20.11,UDP,1194,2058882245,
+openvpn-server,Daniel.U,2022.05.17 15:24:07 EDT,13258,VPN,0,1,172.28.11.28,10.128.20.232,UDP,1194,1346257094,
+openvpn-server,Amanda.E,2022.05.17 15:45:02 EDT,,VPN,0,0,172.16.206.191,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Rachel.H,2022.05.17 16:17:25 EDT,9824,VPN,0,1,172.18.7.120,10.128.20.48,UDP,1194,713860960,
+openvpn-server,Bryan.B,2022.05.17 16:27:48 EDT,2632,VPN,0,1,172.16.43.90,10.128.20.147,UDP,1194,728603400,
+openvpn-server,Stephen.M,2022.05.17 16:49:11 EDT,,VPN,0,0,172.24.82.110,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Catherine.X,2022.05.17 17:04:30 EDT,,VPN,0,0,172.22.203.23,,UDP,1194,,user not found
+openvpn-server,James.M,2022.05.17 17:33:54 EDT,4522,VPN,0,1,172.20.105.81,10.128.20.102,UDP,1194,651792036,
+openvpn-server,Madison.B,2022.05.17 17:56:21 EDT,3698,VPN,0,1,172.20.53.179,10.128.20.101,UDP,1194,560576122,
+openvpn-server,Stephen.M,2022.05.17 18:12:58 EDT,1032,VPN,0,1,172.24.149.136,10.128.20.23,UDP,1194,247503528,
+openvpn-server,Gregory.C,2022.05.17 18:34:21 EDT,4081,VPN,0,1,172.26.251.35,10.128.20.110,UDP,1194,998453379,
+openvpn-server,Mark.L,2022.05.18 07:07:33 EDT,41314,VPN,0,1,172.27.101.208,10.128.20.147,UDP,1194,1323411362,
+openvpn-server,Patricia.K,2022.05.18 07:36:08 EDT,30478,VPN,0,1,172.29.152.244,10.128.20.233,UDP,1194,7354554746,
+openvpn-server,Evelyn.P,2022.05.18 07:53:49 EDT,25240,VPN,0,1,172.19.217.118,10.128.20.33,UDP,1194,434531840,
+openvpn-server,Stephen.M,2022.05.18 08:12:26 EDT,13137,VPN,0,1,172.18.115.253,10.128.20.101,UDP,1194,841490535,
+openvpn-server,Madison.B,2022.05.18 08:34:39 EDT,37532,VPN,0,1,172.18.24.35,10.128.20.113,UDP,1194,1206466140,
+openvpn-server,Alexis.Q,2022.05.18 09:08:41 EDT,,VPN,0,0,172.29.183.208,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Valerie.P,2022.05.18 10:20:59 EDT,20713,VPN,0,1,172.21.20.19,10.128.20.128,UDP,1194,3583224722,
+openvpn-server,Bryan.B,2022.05.18 10:51:13 EDT,11910,VPN,0,1,172.31.21.51,10.128.20.95,UDP,1194,1590735330,
+openvpn-server,Elijah.M,2022.05.18 11:05:01 EDT,,VPN,0,0,172.17.245.245,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Kelly.Y,2022.05.18 11:43:40 EDT,14990,VPN,0,1,172.26.33.204,10.128.20.20,UDP,1194,1227516110,
+openvpn-server,Valerie.P,2022.05.18 12:12:00 EDT,2576,VPN,0,1,172.21.186.4,10.128.20.99,UDP,1194,672253568,
+openvpn-server,Kathryn.D,2022.05.18 12:42:22 EDT,13443,VPN,0,1,172.23.149.80,10.128.20.140,UDP,1194,786106311,
+openvpn-server,Alexis.Q,2022.05.18 13:00:25 EDT,5228,VPN,0,1,172.23.248.214,10.128.20.160,UDP,1194,937139912,
+openvpn-server,Gregory.C,2022.05.18 13:14:00 EDT,14922,VPN,0,1,172.28.13.233,10.128.20.250,UDP,1194,615622032,
+openvpn-server,Kimberly.F,2022.05.18 13:44:48 EDT,,VPN,0,0,172.26.96.239,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Bryan.B,2022.05.18 14:17:10 EDT,3186,VPN,0,1,172.19.34.199,10.128.20.215,UDP,1194,66966534,
+openvpn-server,Rachel.H,2022.05.18 14:36:35 EDT,,VPN,0,0,172.18.72.168,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Patrick.U,2022.05.18 14:57:55 EDT,15266,VPN,0,1,172.19.35.188,10.128.20.188,UDP,1194,3017065378,
+openvpn-server,Marilyn.T,2022.05.18 15:37:22 EDT,8503,VPN,0,1,172.21.141.132,10.128.20.42,UDP,1194,634000686,
+openvpn-server,Sandra.T,2022.05.18 16:12:48 EDT,4914,VPN,0,1,172.26.212.133,10.128.20.126,UDP,1194,266766318,
+openvpn-server,Bryan.B,2022.05.18 16:25:08 EDT,2080,VPN,0,1,172.25.83.68,10.128.20.91,UDP,1194,376309440,
+openvpn-server,James.M,2022.05.18 16:41:03 EDT,7552,VPN,0,1,172.30.153.232,10.128.20.220,UDP,1194,404432256,
+openvpn-server,Juan.C,2022.05.18 16:56:21 EDT,,VPN,0,0,172.30.45.96,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Alexis.Q,2022.05.18 17:32:15 EDT,3081,VPN,0,1,172.27.248.253,10.128.20.149,UDP,1194,184114398,
+openvpn-server,Amanda.E,2022.05.18 17:46:20 EDT,5164,VPN,0,1,172.30.59.197,10.128.20.18,UDP,1194,450564164,
+openvpn-server,Juan.C,2022.05.18 18:14:07 EDT,2548,VPN,0,1,172.23.94.83,10.128.20.79,UDP,1194,27062308,
+openvpn-server,Patricia.K,2022.05.18 18:26:20 EDT,5688,VPN,0,1,172.23.136.142,10.128.20.32,UDP,1194,737432136,
+openvpn-server,Sandra.T,2022.05.18 18:37:14 EDT,6621,VPN,0,1,172.22.204.166,10.128.20.75,UDP,1194,1808400351,
+openvpn-server,Kimberly.F,2022.05.19 07:03:38 EDT,39975,VPN,0,1,172.30.86.100,10.128.20.36,UDP,1194,6987510075,
+openvpn-server,Alexis.Q,2022.05.19 07:17:18 EDT,42881,VPN,0,1,172.24.181.89,10.128.20.252,UDP,1194,3274864851,
+openvpn-server,Evelyn.P,2022.05.19 07:53:27 EDT,8331,VPN,0,1,172.30.237.5,10.128.20.192,UDP,1194,371804199,
+openvpn-server,Mark.L,2022.05.19 08:31:10 EDT,15944,VPN,0,1,172.22.208.203,10.128.20.186,UDP,1194,1850285256,
+openvpn-server,Eugene.C,2022.05.19 08:41:35 EDT,36705,VPN,0,1,172.21.45.92,10.128.20.122,UDP,1194,9435901170,
+openvpn-server,Bryan.B,2022.05.19 09:15:09 EDT,28454,VPN,0,1,172.24.192.206,10.128.20.31,UDP,1194,5449566988,
+openvpn-server,Stephen.M,2022.05.19 09:33:13 EDT,22620,VPN,0,1,172.27.49.50,10.128.20.100,UDP,1194,3888626820,
+openvpn-server,Marilyn.T,2022.05.19 09:44:34 EDT,28334,VPN,0,1,172.16.208.27,10.128.20.253,UDP,1194,1313422570,
+openvpn-server,Kathryn.D,2022.05.19 09:59:12 EDT,5524,VPN,0,1,172.25.66.231,10.128.20.226,UDP,1194,757992232,
+openvpn-server,Ronald.P,2022.05.19 10:25:31 EDT,,VPN,0,0,172.27.123.224,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Evelyn.P,2022.05.19 10:42:28 EDT,23524,VPN,0,1,172.20.144.170,10.128.20.81,UDP,1194,5700406252,
+openvpn-server,Dorothy.U,2022.05.19 10:58:11 EDT,,VPN,0,0,172.20.52.40,,UDP,1194,,user not found
+openvpn-server,James.M,2022.05.19 11:33:26 EDT,28772,VPN,0,1,172.22.14.217,10.128.20.86,UDP,1194,5469873692,
+openvpn-server,Wayne.W,2022.05.19 12:06:48 EDT,14394,VPN,0,1,172.21.19.158,10.128.20.151,UDP,1194,698396880,
+openvpn-server,Kelly.Y,2022.05.19 12:25:42 EDT,889,VPN,0,1,172.29.42.76,10.128.20.235,UDP,1194,108406438,
+openvpn-server,Sandra.T,2022.05.19 12:57:42 EDT,7370,VPN,0,1,172.27.32.87,10.128.20.50,UDP,1194,714786820,
+openvpn-server,Julia.U,2022.05.19 13:11:19 EDT,9688,VPN,0,1,172.28.51.81,10.128.20.198,UDP,1194,1665473768,
+openvpn-server,Madison.B,2022.05.19 13:41:19 EDT,10282,VPN,0,1,172.18.151.193,10.128.20.67,UDP,1194,98501560,
+openvpn-server,Ronald.P,2022.05.19 14:08:40 EDT,7497,VPN,0,1,172.23.48.153,10.128.20.183,UDP,1194,1391240781,
+openvpn-server,Elijah.M,2022.05.19 14:30:14 EDT,2016,VPN,0,1,172.26.226.190,10.128.20.193,UDP,1194,39485376,
+openvpn-server,Mark.L,2022.05.19 14:55:06 EDT,1256,VPN,0,1,172.29.51.196,10.128.20.175,UDP,1194,232921432,
+openvpn-server,Gregory.C,2022.05.19 15:22:39 EDT,9755,VPN,0,1,172.19.17.178,10.128.20.96,UDP,1194,1747383885,
+openvpn-server,Rachel.H,2022.05.19 15:43:51 EDT,11893,VPN,0,1,172.23.16.75,10.128.20.57,UDP,1194,1938356819,
+openvpn-server,Elijah.M,2022.05.19 15:54:08 EDT,8519,VPN,0,1,172.22.157.98,10.128.20.90,UDP,1194,679790643,
+openvpn-server,Sandra.T,2022.05.19 16:19:48 EDT,3770,VPN,0,1,172.16.138.252,10.128.20.25,UDP,1194,189691320,
+openvpn-server,Patricia.K,2022.05.19 16:29:49 EDT,5693,VPN,0,1,172.26.144.27,10.128.20.6,UDP,1194,1095828491,
+openvpn-server,Patrick.U,2022.05.19 16:42:22 EDT,8144,VPN,0,1,172.20.32.99,10.128.20.97,UDP,1194,1642172448,
+openvpn-server,Amanda.E,2022.05.19 17:07:58 EDT,1833,VPN,0,1,172.28.103.188,10.128.20.196,UDP,1194,128223849,
+openvpn-server,Roy.Y,2022.05.19 17:36:33 EDT,,VPN,0,0,172.19.107.164,,UDP,1194,,user not found
+openvpn-server,Patricia.K,2022.05.19 18:13:04 EDT,4340,VPN,0,1,172.18.228.47,10.128.20.17,UDP,1194,700949060,
+openvpn-server,Jose.Y,2022.05.19 18:29:03 EDT,,VPN,0,0,172.26.213.27,,UDP,1194,,user not found
+openvpn-server,Sandra.T,2022.05.19 18:47:28 EDT,6401,VPN,0,1,172.24.7.226,10.128.20.244,UDP,1194,1542352955,
+openvpn-server,Daniel.U,2022.05.20 07:34:47 EDT,22503,VPN,0,1,172.28.137.226,10.128.20.59,UDP,1194,994767618,
+openvpn-server,Eugene.C,2022.05.20 08:01:27 EDT,17288,VPN,0,1,172.28.214.53,10.128.20.239,UDP,1194,2238208208,
+openvpn-server,Marilyn.T,2022.05.20 08:35:15 EDT,15078,VPN,0,1,172.28.172.170,10.128.20.18,UDP,1194,54024474,
+openvpn-server,Kelly.Y,2022.05.20 09:01:19 EDT,19898,VPN,0,1,172.23.174.214,10.128.20.214,UDP,1194,2018254140,
+openvpn-server,Amanda.E,2022.05.20 09:26:08 EDT,,VPN,0,0,172.25.245.196,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Gregory.C,2022.05.20 09:51:50 EDT,,VPN,0,0,172.30.214.17,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Rachel.H,2022.05.20 10:07:56 EDT,8096,VPN,0,1,172.31.12.224,10.128.20.168,UDP,1194,395683904,
+openvpn-server,Kevin.C,2022.05.20 10:44:52 EDT,29791,VPN,0,1,172.23.44.17,10.128.20.131,UDP,1194,4013234983,
+openvpn-server,Mark.L,2022.05.20 11:05:32 EDT,26288,VPN,0,1,172.19.61.10,10.128.20.125,UDP,1194,2521413520,
+openvpn-server,Patrick.U,2022.05.20 11:19:13 EDT,2162,VPN,0,1,172.20.117.67,10.128.20.96,UDP,1194,344944938,
+openvpn-server,Madison.B,2022.05.20 11:43:46 EDT,15339,VPN,0,1,172.18.119.178,10.128.20.224,UDP,1194,2761510848,
+openvpn-server,Amanda.E,2022.05.20 12:03:36 EDT,,VPN,0,0,172.19.7.215,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Anthony.G,2022.05.20 12:35:47 EDT,,VPN,0,0,172.24.151.183,,UDP,1194,,user not found
+openvpn-server,Stephen.M,2022.05.20 13:13:18 EDT,5276,VPN,0,1,172.27.80.80,10.128.20.32,UDP,1194,148698784,
+openvpn-server,Wayne.W,2022.05.20 13:28:31 EDT,4454,VPN,0,1,172.21.233.186,10.128.20.249,UDP,1194,800143284,
+openvpn-server,Alexis.Q,2022.05.20 13:57:24 EDT,6581,VPN,0,1,172.23.78.186,10.128.20.46,UDP,1194,732162574,
+openvpn-server,Gregory.C,2022.05.20 14:14:35 EDT,8441,VPN,0,1,172.27.78.201,10.128.20.72,UDP,1194,983317413,
+openvpn-server,Patrick.U,2022.05.20 14:35:42 EDT,4248,VPN,0,1,172.18.132.195,10.128.20.190,UDP,1194,1038848400,
+openvpn-server,Marilyn.T,2022.05.20 15:07:07 EDT,8461,VPN,0,1,172.30.2.36,10.128.20.57,UDP,1194,689554578,
+openvpn-server,Stephen.M,2022.05.20 15:18:40 EDT,13358,VPN,0,1,172.24.157.204,10.128.20.155,UDP,1194,2988799068,
+openvpn-server,Elijah.M,2022.05.20 15:40:34 EDT,12321,VPN,0,1,172.20.208.108,10.128.20.229,UDP,1194,1419637941,
+openvpn-server,Daniel.U,2022.05.20 16:11:27 EDT,,VPN,0,0,172.27.206.15,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Amanda.E,2022.05.20 16:26:15 EDT,5232,VPN,0,1,172.26.62.39,10.128.20.139,UDP,1194,838799472,
+openvpn-server,Patricia.K,2022.05.20 16:49:45 EDT,10129,VPN,0,1,172.24.98.104,10.128.20.248,UDP,1194,2268490840,
+openvpn-server,Sandra.T,2022.05.20 17:29:12 EDT,3305,VPN,0,1,172.29.65.165,10.128.20.135,UDP,1194,517334955,
+openvpn-server,Ronald.P,2022.05.20 18:06:00 EDT,5031,VPN,0,1,172.31.15.245,10.128.20.254,UDP,1194,1273019085,
+openvpn-server,Madison.B,2022.05.20 18:41:31 EDT,7452,VPN,0,1,172.24.60.11,10.128.20.61,UDP,1194,993403764,
+openvpn-server,Stephen.M,2022.05.21 07:14:06 EDT,7403,VPN,0,1,172.25.1.96,10.128.20.239,UDP,1194,1541474869,
+openvpn-server,Eugene.C,2022.05.21 07:46:31 EDT,4243,VPN,0,1,172.21.125.29,10.128.20.211,UDP,1194,1027344861,
+openvpn-server,Elijah.M,2022.05.21 08:17:36 EDT,16346,VPN,0,1,172.22.5.66,10.128.20.85,UDP,1194,3516874592,
+openvpn-server,Gregory.C,2022.05.21 08:56:02 EDT,,VPN,0,0,172.19.77.125,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Bryan.B,2022.05.21 09:30:17 EDT,9774,VPN,0,1,172.26.126.86,10.128.20.48,UDP,1194,1646528040,
+openvpn-server,Sandra.T,2022.05.21 10:05:06 EDT,26835,VPN,0,1,172.21.153.3,10.128.20.33,UDP,1194,4919741055,
+openvpn-server,Gregory.C,2022.05.21 10:32:55 EDT,19026,VPN,0,1,172.27.189.177,10.128.20.116,UDP,1194,4277444346,
+openvpn-server,Kathryn.D,2022.05.21 11:10:04 EDT,,VPN,0,0,172.16.73.22,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Scott.T,2022.05.21 11:34:07 EDT,,VPN,0,0,172.17.113.239,,UDP,1194,,user not found
+openvpn-server,Mark.L,2022.05.21 11:56:19 EDT,5673,VPN,0,1,172.27.124.75,10.128.20.93,UDP,1194,1086504306,
+openvpn-server,Louis.R,2022.05.21 12:09:16 EDT,,VPN,0,0,172.19.18.169,,UDP,1194,,user not found
+openvpn-server,Juan.C,2022.05.21 12:22:56 EDT,24947,VPN,0,1,172.31.89.9,10.128.20.67,UDP,1194,5885022247,
+openvpn-server,Kevin.C,2022.05.21 13:02:16 EDT,2802,VPN,0,1,172.18.241.97,10.128.20.145,UDP,1194,511633992,
+openvpn-server,Kimberly.F,2022.05.21 13:33:27 EDT,5655,VPN,0,1,172.24.200.107,10.128.20.178,UDP,1194,501247890,
+openvpn-server,Mark.L,2022.05.21 14:01:58 EDT,6381,VPN,0,1,172.16.89.158,10.128.20.157,UDP,1194,1707727887,
+openvpn-server,Julia.U,2022.05.21 14:17:49 EDT,681,VPN,0,1,172.24.212.205,10.128.20.54,UDP,1194,78424641,
+openvpn-server,Ronald.P,2022.05.21 14:41:07 EDT,3507,VPN,0,1,172.24.251.160,10.128.20.52,UDP,1194,93202032,
+openvpn-server,Stephen.M,2022.05.21 14:53:17 EDT,,VPN,0,0,172.25.83.64,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,James.M,2022.05.21 15:12:01 EDT,10566,VPN,0,1,172.16.68.125,10.128.20.64,UDP,1194,1263492846,
+openvpn-server,Walter.M,2022.05.21 15:40:06 EDT,,VPN,0,0,172.28.105.213,,UDP,1194,,user not found
+openvpn-server,Gregory.C,2022.05.21 16:09:05 EDT,,VPN,0,0,172.19.163.137,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Evelyn.P,2022.05.21 16:20:50 EDT,3424,VPN,0,1,172.18.79.34,10.128.20.21,UDP,1194,740669408,
+openvpn-server,Kathryn.D,2022.05.21 16:38:25 EDT,1658,VPN,0,1,172.28.75.228,10.128.20.233,UDP,1194,217166498,
+openvpn-server,Patricia.K,2022.05.21 17:07:14 EDT,3527,VPN,0,1,172.26.219.77,10.128.20.235,UDP,1194,245902440,
+openvpn-server,Kevin.C,2022.05.21 17:31:14 EDT,,VPN,0,0,172.23.163.254,,UDP,1194,,LDAP invalid credentials on ldap://10.128.30.20: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None (facility='initialize [10.128.30.20]'
+openvpn-server,Gregory.C,2022.05.21 17:56:14 EDT,6143,VPN,0,1,172.19.82.153,10.128.20.247,UDP,1194,347964092,
+openvpn-server,Kimberly.F,2022.05.21 18:18:04 EDT,1550,VPN,0,1,172.30.196.237,10.128.20.242,UDP,1194,158520050,

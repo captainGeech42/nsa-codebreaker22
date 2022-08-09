@@ -1,0 +1,6 @@
+no IPs repeat, thank you naive randomization
+
+i assume soln is to find a user who auth'd while they had a vpn session going on
+    time+duration > time
+
+soln: Valerie.P
