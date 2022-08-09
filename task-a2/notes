@@ -1,0 +1,5 @@
+decrypt tls with .cert.pem in the root dir
+
+http response got truncated but just look at the packets and you can see the start of the http response, sus string in there
+
+soln: SilkyMistyDance
