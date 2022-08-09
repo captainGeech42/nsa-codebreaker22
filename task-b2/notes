@@ -1,0 +1,14 @@
+https://gztkmtljeceezgmv.ransommethis.net/
+
+HTTP/2 403 Forbidden
+Date: Tue, 09 Aug 2022 01:30:11 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 412
+Server: nginx/1.23.1
+X-Git-Commit-Hash: 05b51300b452d3a9bc99eebfe2d6df83f475cdca
+X-Firefox-Spdy: h2 # only shows up in ff, not in burp idk
+
+.git directory is exposed, dump with https://github.com/arthaud/git-dumper
+    comes with source code, YEET
+
+solution: https://gztkmtljeceezgmv.ransommethis.net/jrtwtevqduetiiho/login
