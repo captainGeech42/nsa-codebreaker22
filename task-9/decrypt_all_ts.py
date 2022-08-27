@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import multiprocessing
 import subprocess
 import base64
 import binascii
@@ -40,7 +41,7 @@ TIMESTAMPS = [
 
 max_delta = (10**9) // 100 # uuidv1 is 100ns percision; 0x98_96_80
 
-for ts in TIMESTAMPS:
+def try_ts(ts):
     print(f"testing {ts}")
 
     uuid = subprocess.check_output(["./convert_ts_to_uuid", ts])
@@ -48,7 +49,7 @@ for ts in TIMESTAMPS:
     start_ts = int(start_key[:8], 16)
     tail = start_key[8:]
 
-    for i in tqdm(range(start_ts, start_ts+max_delta)):
+    for i in range(start_ts, start_ts+max_delta):
         uuid = hex(i)[2:] + tail
 
         key = uuid.encode()
@@ -61,4 +62,10 @@ for ts in TIMESTAMPS:
             with open("important_data.pdf", "wb") as f:
                 f.write(aes.decrypt(ctxt))
 
-            break        
+            return
+    
+    print(f"couldn't decrypt with {ts}")
+
+if __name__ == "__main__":
+    with multiprocessing.Pool(len(TIMESTAMPS)) as pool:
+        pool.map(try_ts, TIMESTAMPS)
