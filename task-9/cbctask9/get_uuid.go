@@ -11,7 +11,7 @@ import (
 func main() {
 	// fmt.Println("generating uuid for", os.Args[1])
 
-	tm, err := time.Parse("2006-01-02T15:04:05-07:00", os.Args[1])
+	tm, err := time.Parse("2006-01-02T15:04:05-0700", os.Args[1])
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)

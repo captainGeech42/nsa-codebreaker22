@@ -54,6 +54,8 @@ none of the keys in the database decrypt the pdf
 
 the log has 2022 entries, the db does not
 
+need a 5-13 second variance for each timestamp, ugh
+
 ---------------
 
 # binary capability
@@ -88,3 +90,24 @@ UUIDv1 time component is 100ns precision. we lose a lot of precision by using a 
 ## unlock
 
 ## credit
+
+--------------------------------
+
+```
+#################### 2022-01-24T08:41:29-0500: decrypted with b'55964e7f-7d1b-11ec-974f-3302a151'
+
+00001c00: f286 39cf 30e1 4698 d5f4 e0ac f3d8 a6cb  ..9.0.F.........
+00001c10: 7a8c 3014 ae86 9837 e29c 1814 8fa1 44f5  z.0....7......D.
+00001c20: acbb 507d 55e1 89b7 296d 2545 4f46 6d6f  ..P}U...)m%EOFmo
+(END)
+```
+
+last two should be 0d 0a
+
+#################### 2022-01-11T20:22:27-0500: decrypted with b'1a7ca462-7346-11ec-974f-3302a151'
+    no clue why this came up
+
+#################### 2022-01-11T20:22:33-0500: decrypted with b'1e3ab0d5-7346-11ec-974f-3302a151'
+    %EOF at the very end
+
+#################### 2022-02-11T18:50:05-0500: decrypted with b'56633d1a-8b95-11ec-974f-3302a151'

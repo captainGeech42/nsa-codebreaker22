@@ -16,34 +16,11 @@ with open("important_data.pdf.enc", "rb") as f:
 
 iv = binascii.unhexlify(enc_data[:0x20])
 ctxt = enc_data[0x20:]
-"""
-$ go run . 2021-10-03T11:42:32-04:00
-generating uuid for 2021-10-03T11:42:32-04:00
-2021-10-03 11:42:32 -0400 EDT
-low: 85afe400
-mid: 2460
-hi: 11ec
-seq: 9e40
-85afe400-2460-11ec-974f-3302a1510000
-"""
-tmpl = "8xxxxxxx-2460-11ec-974f-3302a151"
-start_ts = 0x5afe400
+key = b'56633d1a-8b95-11ec-974f-3302a151'
+aes = AES.new(key, AES.MODE_CBC, iv)
 
-max_delta = (10**9) // 100 # uuidv1 is 100ns percision
+ptxt = aes.decrypt(ctxt)
+print(f"decrypted with {key}")
 
-for i in tqdm(range(start_ts, start_ts+max_delta)):
-    # example uuid: 83716abd-f2ed-11eb-974f-3302a151
-
-    uuid = tmpl.replace("xxxxxxx", hex(i)[2:])
-
-    key = uuid.encode()
-    aes = AES.new(key, AES.MODE_CBC, iv)
-
-    ptxt = aes.decrypt(ctxt)
-    if ptxt[:4] == b"%PDF":
-        print(f"decrypted with {key}")
-
-        with open("important_data.pdf", "wb") as f:
-            f.write(aes.decrypt(ctxt))
-
-        break        
+with open("test.pdf", "wb") as f:
+    f.write(aes.decrypt(ctxt))
