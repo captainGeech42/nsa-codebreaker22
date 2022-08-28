@@ -56,6 +56,9 @@ the log has 2022 entries, the db does not
 
 need a 5-13 second variance for each timestamp, ugh
 
+https://gztkmtljeceezgmv.ransommethis.net/demand?cid=6158061
+    dont think this is needed but jic
+
 ---------------
 
 # binary capability
@@ -88,6 +91,63 @@ UUIDv1 time component is 100ns precision. we lose a lot of precision by using a 
   * nodeid is 0x3302a151
 
 ## unlock
+
+usage:
+```
+$ ./keyMaster unlock <jwt>
+{"key":"MjFmNGZlNDUtNTBjNS0xMWVjLTk3NGYtMzMwMmExNTE="}
+```
+
+outputs a base64 encoded key from the db i think?
+
+read in a PEM RSA pubkey from ./receipt.pub
+parse a jwt
+
+Parser.ParseWithClaims call, va 0x5b8a52
+    rax - Parser ptr
+    rbx - tokenString.ptr
+    rcx - tokenString.length
+    rdi/rsi - ReceiptClaims, unsure on the values
+    r8 - KeyFunc
+
+at 0x599589, the standard claims are validated
+```go
+type StandardClaims struct {
+	Audience  string `json:"aud,omitempty"`
+	ExpiresAt int64  `json:"exp,omitempty"`
+	Id        string `json:"jti,omitempty"`
+	IssuedAt  int64  `json:"iat,omitempty"`
+	Issuer    string `json:"iss,omitempty"`
+	NotBefore int64  `json:"nbf,omitempty"`
+	Subject   string `json:"sub,omitempty"`
+}
+```
+
+after call at 0x5b8a52, a token pointer is in rax
+```go
+type Token struct {
+	Raw       string                 // The raw token.  Populated when you Parse a token
+	Method    SigningMethod          // The signing method used or to be used
+	Header    map[string]interface{} // The first segment of the token
+	Claims    Claims                 // The second segment of the token
+	Signature string                 // The third segment of the token.  Populated when you Parse a token
+	Valid     bool                   // Is the token valid?  Populated when you Parse/Verify a token
+}
+```
+
+jwt: `eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjdXN0b21lcklEIjoiMzQ5NjIiLCJwYXltZW50QW1vdW50Ijo2Ljl9.PVUZxrqxvjpLQnwIp05Ekco3w78JrSV1VEUlyPpL9Rpr-ScYK8apAjhqOSfMfBGMYeDWIt7zDIroxUd_X1eIA_C1YoB_DeGN9Lq2NFPrODdLUQWUk3IRXMrM0yZTqnspTN0ecOj21M4aUNf3NMuuBZqCl6wH6OHwxIU1WNxDf-xYXmvwV4XHFmx956CLRIiyEgljEY-CgeAH--QWHwmBcbu5jRLclMxNMyaZgto7ghEynRRTSA_0GoxaDKK-RNV5APFOTyATkweXmnpgELpRzcyv5omtxl08aK7cbjxo-SUvS-019uS6JvbS76XW_dXB7su_T0YzQH_-ePl2XikYRw`
+
+claims:
+```json
+{
+    "customerID": "34962",
+    "paymentAmount": 6.9,
+}
+```
+
+0x6B0AC0 has the struct definition for receipt claims
+
+
 
 ## credit
 
