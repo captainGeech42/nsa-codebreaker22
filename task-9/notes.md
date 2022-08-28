@@ -80,7 +80,7 @@ writes the following row to db:
 
 encrypted data in the database
     first 0x10 is IV, rest of ciphertext
-    find_db_entry.py decrypts
+    decrypt_db_entry.py decrypts
 
 $CLOCK_SEQUENCE is 0x974f
 
@@ -98,7 +98,7 @@ $ ./keyMaster unlock <jwt>
 {"key":"MjFmNGZlNDUtNTBjNS0xMWVjLTk3NGYtMzMwMmExNTE="}
 ```
 
-outputs a base64 encoded key from the db i think?
+outputs a base64 encoded key from the db
 
 read in a PEM RSA pubkey from ./receipt.pub
 parse a jwt
@@ -151,6 +151,14 @@ claims:
 
 ## credit
 
+usage:
+```
+$ ./keyMaster credit MelodicVixen 420 <jwt>
+{"result":"ok"}
+```
+
+i think the jwt is used to authenticate? since the signature is validated
+
 --------------------------------
 
 ```
@@ -171,3 +179,7 @@ last two should be 0d 0a
     %EOF at the very end
 
 #################### 2022-02-11T18:50:05-0500: decrypted with b'56633d1a-8b95-11ec-974f-3302a151'
+
+maybe i have to pbkdf2
+the key from unlock is base64 encoded. the pbkdf2 secret is base64 encoded when it is passed into pbkdf2, but the salt is b64 decoded.
+    is the 32 hex chars in the file the pbkdf2 salt, the iv, both?
