@@ -24,6 +24,8 @@ with open("important_data.pdf.enc", "rb") as f:
 iv = binascii.unhexlify(enc_data[:0x20])
 ctxt = enc_data[0x20:]
 
+CLOCK_SEQUENCE_OFFSET = 3
+
 TIMESTAMPS = [
     "2022-01-02T23:25:14-0500",
     "2022-01-11T20:22:38-0500",
@@ -49,6 +51,7 @@ max_delta = (10**9) // 100 # uuidv1 is 100ns percision; 0x98_96_80
 
 ALL_TIMESTAMPS = []
 
+# in the records where we have log+db timestamps, the database timestamps are a few sec earlier than the log times
 for ts in TIMESTAMPS:
     dt = dt_parse(ts)
     for i in range(5, 14):
@@ -59,11 +62,19 @@ def try_ts(ts):
 
     uuid = subprocess.check_output(["./convert_ts_to_uuid", ts])
     start_key = uuid[:32].decode()
+
+    # set clock sequence
+    parts = start_key.split("-")
+    clock_sequence = int(parts[3], 16)
+    clock_sequence += CLOCK_SEQUENCE_OFFSET
+    parts[3] = hex(clock_sequence)[2:]
+    start_key = "-".join(parts)
+
     start_ts = int(start_key[:8], 16)
     tail = start_key[8:]
 
-    for i in range(start_ts, start_ts+max_delta):
-    # for i in range(start_ts, start_ts+5):
+    # need to go backwards from the non-precise starting UUID
+    for i in range(start_ts-max_delta, start_ts):
         key = (hex(i)[2:].zfill(8) + tail).encode()
 
         try:
@@ -77,13 +88,14 @@ def try_ts(ts):
             break
 
         ptxt = aes.decrypt(ctxt)
+        # if ptxt[:4] == b"%PDF":
         if b"%PDF" in ptxt[:10] or b"%EOF" in ptxt[-10:]:
             print(f"#################### {ts}: possibly decrypted with {key}")
 
             with open(f"important_data_{key.decode()}.pdf", "wb") as f:
                 f.write(aes.decrypt(ctxt))
     
-    print(f"couldn't decrypt with {ts}")
+    print(f"finished {ts}")
 
 if __name__ == "__main__":
     with multiprocessing.Pool(40) as pool:
