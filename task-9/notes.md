@@ -352,3 +352,9 @@ We regret to inform you that, due to recent system issues, we have been forced t
 
 ransom page on task b1 has a demand of 1.066 as well
     https://jirwpbzkasgziwqr.unlockmyfiles.biz/
+
+never got the tarball from task a2, it has a ransom.sh script that shows the uuid getting truncated to 128 bits, and then AES-128-CBC being used.
+
+key: `449fc6e6-d6b6-11`
+
+decrypt.py final decryption script, decrypt_all_ts.py recovers the key

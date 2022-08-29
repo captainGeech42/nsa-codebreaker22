@@ -16,11 +16,11 @@ with open("important_data.pdf.enc", "rb") as f:
 
 iv = binascii.unhexlify(enc_data[:0x20])
 ctxt = enc_data[0x20:]
-key = b'56633d1a-8b95-11ec-974f-3302a151'
-aes = AES.new(key, AES.MODE_CBC, iv)
+# aes = AES.new(base64.b64decode("ci/zCrpl6r8Sb99bMpc0X/6JqwzjspqGE7A/4jNgifc="), AES.MODE_CBC, ctxt[:0x10])
+aes = AES.new(b"449fc6e6-d6b6-11", AES.MODE_CBC, iv)
 
 ptxt = aes.decrypt(ctxt)
-print(f"decrypted with {key}")
+# ptxt = aes.decrypt(ctxt)
 
 with open("test.pdf", "wb") as f:
-    f.write(aes.decrypt(ctxt))
+    f.write(ptxt)
